@@ -2,7 +2,7 @@
 
 This project was created by Madushan Jayawardane.
 
-## To view the protect, run
+## To download the project, run
 
 ### `git clone https://github.com/madushanj/little-lemon-react`
 
