@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap");
+
+:root {
+	--yellow: #f4ce14;
+	--green: #495e57;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	padding: 10px 20px;
+}
+
+.logo > img {
+	float: left;
+}
+
+.menu > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.menu li {
+	float: right;
+}
+
+.menu li a {
+	display: block;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 16px;
+	margin-left: 10px;
+}
+
+.menu li a:hover {
+	background-color: var(--yellow);
+}
+
+.section-hero {
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 40px 100px;
+	background-color: var(--yellow);
+}
+
+.section-hero .fb-text {
+	width: 600px;
+}
+
+.fb-text .title {
+	font-family: "Markazi Text", serif;
+	font-size: 64px;
+	font-weight: 500;
+	margin-top: 20px;
+	line-height: 50%;
+}
+
+.fb-text .sub-title {
+	font-family: "Markazi Text", serif;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.fb-text .description {
+	font-family: "Karla", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+button {
+	font-family: "Karla", sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	border-radius: 16px !important;
+}
+
+.section-hero .fb-img {
+	width: 700px;
+	text-align: right;
+}
+
+.section-hero img {
+	border-radius: 16px;
+	width: 70%;
+}
+
+.section-highlights {
+	height: 750px;
+	margin-top: 100px;
+	padding: 40px 100px;
+}
+
+.section-highlights .heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heading p {
+	font-family: "Markazi Text", serif;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.cards .card {
+	width: 18rem;
+	border-radius: 16px;
+	background-color: var(--yellow);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+	border-radius: 16px;
+}
+
+.section-highlights .card-heading {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.card .card-title {
+	font-family: "Karla", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.card .card-price {
+	font-family: "Karla", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.card .card-disc {
+	font-family: "Karla", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.card .card-hlink {
+	text-decoration: none;
+	font-family: "Karla", sans-serif;
+	font-weight: 800;
+	font-size: 16px;
+	color: black;
+}
+
+.section-testimonials {
+	height: 500px;
+	background-color: var(--green);
+	padding: 40px 100px;
+}
+
+.section-testimonials .heading {
+	text-align: center;
+	font-family: "Markazi Text";
+	font-weight: 400;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.section-testimonials .card-heading {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.section-testimonials img {
+	width: 50px;
+	background-color: red;
+}
+
+.section-testimonials .card {
+	background-color: white;
+}
+.section-testimonials .card .rating {
+	margin-left: 15px;
+	margin-top: 20px;
+	color: var(--yellow);
+	font-size: 25px;
+}
+.section-testimonials .card-body {
+	padding: 0px 15px;
+}
+.section-testimonials .person-name {
+	margin-left: 15px;
+	font-family: "Karla";
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.section-testimonials .card-disc {
+	font-family: "Karla";
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.section-about {
+	height: 700px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 40px 100px;
+}
+
+.section-about img {
+	width: 600px;
+}
+
+.section-about .fb-text {
+	width: 600px;
+}
+
+.section-about .about-disc {
+	font-family: "Karla";
+	font-weight: 500;
+	font-size: 18px;
+}
+
+footer {
+	height: 320px;
+	background-color: #242424;
+	color: white;
+	padding: 40px 100px;
+}
+
+footer .section1 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer .section1 p {
+	font-family: "Karla";
+	font-weight: 800;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+footer .section1 ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+footer .section1 li {
+	font-family: "Karla";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+}
+
+footer .section1 .logo {
+	padding-top: 80px;
+}
+
+footer .section1 img {
+	width: 150%;
+}
+
+footer .section2 p {
+	text-align: center;
+	font-family: "Karla";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #c2c2c2;
+}
